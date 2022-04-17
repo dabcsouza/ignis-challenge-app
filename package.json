@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "heroku": "^7.60.1",
+    "local": "^0.3.3",
+    "web": "^0.0.2"
+  }
+}

@@ -1,0 +1,32 @@
+body {
+  margin: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: rgba(74, 74, 228, 0.767);
+}
+.main-label {
+  display: flex;
+  width: 85%;
+  margin: 30px;
+}
+
+body > button {
+  margin: 2px 30px;
+}
+
+.table-container {
+  background-color: #a6bbf334;
+  width: 85%;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.champion {
+  color: rgb(93, 99, 94);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:60px;
+  text-align: center;
+};
