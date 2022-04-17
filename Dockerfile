@@ -4,4 +4,4 @@ RUN  adduser -D tohr
 USER tohr
 WORKDIR /home/tohr
 COPY . .
-CMD ["thttpd", "-D", "-h", "0.0.0.0", "-p", "s/80/$PORT/g", "-d", "/home/tohr", "-u", "tohr", "-l", "-"]
+CMD ["thttpd", "-D", "-h", "0.0.0.0", "-p", "${PORT}", "-d", "/home/tohr", "-u", "tohr", "-l", "-"]
